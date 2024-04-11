@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 
 # Load your trained model and the TF-IDF vectorizer
 
-nb_model = joblib.load('C:/Users/wasee/PycharmProjects/pythonProject/PROJECTS/naive_bayes_model.joblib')
+nb_model = joblib.load('naive_bayes_model.joblib')
 
-tfidf_vectorizer = joblib.load('C:/Users/wasee/PycharmProjects/pythonProject/PROJECTS/tfidf_vectorizer.joblib')
+tfidf_vectorizer = joblib.load('tfidf_vectorizer.joblib')
 
 
 def clean_text(text):
